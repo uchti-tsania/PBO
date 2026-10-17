@@ -23,7 +23,7 @@ class Mahasiswa {
 
 // Contoh pakai:
 const mhs1 = new Mahasiswa('Andi', '2023001', 'Informatika');
-mhs1.tambahNilai(85);    #"mhs = mahasiswa  tambah nilai = method"
+mhs1.tambahNilai(85);   
 mhs1.tambahNilai(90);
-console.log(mhs1.info());   #"console = print"
+console.log(mhs1.info()); 
 console.log('Rata-rata:', mhs1.rataNilai().toFixed(2));
